@@ -6,7 +6,7 @@ function HomePage() {
   return (
     <div className="homepage">
       <div className="directory-menu">
-        <MenuItem />
+        <MenuItem title={45} />
         <MenuItem />
         <MenuItem />
         <MenuItem />
