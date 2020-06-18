@@ -1,5 +1,4 @@
 import React from "react";
-import { Route } from "react-router-dom";
 import "./Homepage.scss";
 import Directory from "../../Components/Directory/Directory";
 
