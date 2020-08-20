@@ -10,8 +10,7 @@ const FormInput = ({ lable, handleChange, ...otherProps }) => (
           otherProps.value.lenght ? "shrink" : ""
         } form-input-lable`}
       >
-        {" "}
-        {lable}{" "}
+        {lable}
       </lable>
     ) : null}
   </div>

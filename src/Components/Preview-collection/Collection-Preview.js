@@ -12,6 +12,7 @@ const CollectionPreview = ({ id, title, items }) => (
         .map(({id, ...otherProps}) => (
           <CollectionItem key={id} {...otherProps} />
         ))}
+        
     </div>
   </div>
 );
